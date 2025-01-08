@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 ARGV.each do |arg|
-  if arg.match?(/hbt{1,}n/)
+  if arg.match?(/hbt+n/)
     puts arg
   else
     puts ''
