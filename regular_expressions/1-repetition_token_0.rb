@@ -6,4 +6,4 @@
 #     puts ''
 #   end
 # end
-puts arg if ARGV[0].match?(/hbt{2,5}n/g) else ''
+puts ARGV[0].scan(/hbt{2,5}n/g).join
