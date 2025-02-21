@@ -9,7 +9,7 @@ def top_ten(subreddit):
     headers = {'User-Agent': 'Chrome/1.0'}
     response = requests.get(url, headers=headers, allow_redirects=False)
     # print(response)
-    print(response.text[105632:])
+    print(response.text[106655:])
     if response.status_code != 200:
         print(None)
     else:
